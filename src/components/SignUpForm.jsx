@@ -63,7 +63,7 @@ export default function SignUpForm({setToken}) {
         </label>
         <br />
 
-        <button>Submit</button>
+        <button className="button">Submit</button>
       </form>
     </div>
   );

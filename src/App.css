@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+#root {
+  background-color: rgb(222, 164, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: rgb(113, 14, 113);
+}

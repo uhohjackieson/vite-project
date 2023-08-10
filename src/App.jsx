@@ -7,10 +7,12 @@ function App() {
   const [token, setToken] = useState(null);
   return (
     <>
+      
       <div>
         <SignUpForm token={token}setToken={setToken}/>
         <Authenticate token={token}setToken={setToken}/>
       </div>
+
 
     </>
   )

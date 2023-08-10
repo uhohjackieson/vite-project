@@ -18,7 +18,7 @@ export default function Authenticate({token}) {
             });
             const result = await response.json();
             console.log(result);
-            setSuccessMessage(`${result.data.username} and ${result.message}`);
+            setSuccessMessage(`${result.data.username} is ${result.message}`);
             console.log()
         } catch(error) {
             setError(error.message)
@@ -31,7 +31,7 @@ export default function Authenticate({token}) {
             
 
             {error && <p>{error}</p>}
-            <button onClick={handleClick
+            <button className="button" onClick={handleClick
             }>Authenticate Token</button>
 
         </>
